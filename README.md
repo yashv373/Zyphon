@@ -36,11 +36,11 @@ Welcome to **Zyphon**, an **open-source, structured, and intuitive** platform to
 
 ## 🔥 Why Zyphon?
 ```
-✅ **Structured learning:** From basic physics to full-chip design.  
-✅ **Hands-on simulations:** Open-source EDA tools, in-browser HDL coding.  
-✅ **Leetcode-style HDL challenges:** (Coming soon 🚧, read more in `12_Zyphon’s_Future`). 
-✅ **Free & Open-source:** No paywalls, no BS. Only knowledge.  
-✅ **Community-driven:** Built for engineers, by engineers.  
+✅ Structured learning: From basic physics to full-chip design.  
+✅ Hands-on simulations: Open-source EDA tools, in-browser HDL coding.  
+✅ Leetcode-style HDL challenges: (Coming soon 🚧, read more in `12_Zyphon’s_Future`). 
+✅ Free & Open-source: No paywalls, no BS. Only knowledge.  
+✅ Community-driven: Built for engineers, by engineers.  
 ```
 Why Does VLSI Have Such a High Entry Barrier?
 ```
