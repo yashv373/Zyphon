@@ -2,6 +2,8 @@
 
 Welcome to **Zyphon**, an **open-source, structured, and intuitive** platform to learn **everything** about VLSI, from the **grain of sand used to make silicon** to **a processor/ai-accelerator/more!** Zyphon tackles resource scarcity and the lack of a centralized database, making VLSI knowledge accessible to thousands of students worldwide. No paywalls, no gatekeeping—Zyphon is free and built by the community, for the community. 🚀
 
+![logo](https://github.com/user-attachments/assets/ba4b2d21-1f57-41ad-8ed8-efaf3efbad8e)
+
 ---
 
 ## 📂 Repository Structure - Structured by Design Abstraction Levels
