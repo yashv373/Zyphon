@@ -82,7 +82,7 @@ Your knowledge could help thousands. Join the movement.
 📬 **Contribute Ideas** in `12_Zyphon’s_Future`
 
 P.S.
-The Name? - We used Yashvardhan's signature 'Z' prefix for his project names and combined it with 'Phonon.' Tweaking it for readability, we decided on Zyphon.
+The Name? - We used Yashvardhan's signature 'Z' prefix for his project names and combined it with 'Phonon'(which refers to the quantum mechanical vibrations in semiconductors). Tweaking it for readability, we decided on Zyphon.
 
 Let’s **revolutionize VLSI education together!** 💥
 
