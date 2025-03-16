@@ -78,7 +78,7 @@ We welcome **pull requests, issues, and suggestions**! Help improve **Zyphon** b
 ## 📢 Be Part of the Zyphon Revolution
 Your knowledge could help thousands. Join the movement.
 
-🚀 **Discord**: [Coming Soon]  
+🚀 **Discord**: https://discord.gg/vW9HXb3CFf  
 🐦 **Twitter**: [Coming Soon]  
 💼 **LinkedIn**: [Coming Soon]  
 📬 **Contribute Ideas** in `12_Zyphon’s_Future`
