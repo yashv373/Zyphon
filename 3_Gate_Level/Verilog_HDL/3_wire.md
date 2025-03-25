@@ -1,1 +1,1 @@
-// moving forward, lets look at the very first data type in verilog, that is a wire. A wire is very similar to the wire
+// moving forward, lets look at the very first data type in verilog, that is a wire. A wire is very similar to the wire we encounter in real life and if we want internal connections in our verilog circuits that are not explicitly declared ports, we can use 
