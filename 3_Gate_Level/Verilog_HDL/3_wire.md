@@ -2,5 +2,5 @@
 
 
 module ckt3( input in, output out  // now here we have 2 ports - in as input and out as output port
-assign out=in; // out = in, basically modelling
-endmodule
+assign out=in; // out = in, basically modelling a wire behaviour, transmitting anything incoming at the input to the output as well
+endmodule // end the module
