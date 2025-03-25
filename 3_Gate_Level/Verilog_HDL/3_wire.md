@@ -1,1 +1,1 @@
-//
+// moving forward, lets look at the very first data type in verilog, that is a wire. A wire is very similar to the wire
