@@ -7,4 +7,7 @@
 module ckt4( 
     input a,b,c,
     output w,x,y,z );
-    inpuit
+    assign w=a;
+    assign x=b;
+    assign y=b;
+    assig
