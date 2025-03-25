@@ -10,4 +10,5 @@ module ckt4(
     assign w=a;
     assign x=b;
     assign y=b;
-    assig
+    assign z=c;
+endmodule
