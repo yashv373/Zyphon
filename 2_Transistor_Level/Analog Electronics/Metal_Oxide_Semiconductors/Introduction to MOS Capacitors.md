@@ -1,5 +1,4 @@
 ## Introduction 
-this is a test
 - MOS (Metal-Oxide-Semiconductor) capacitor is a fundamental structure that serves as the building block for modern MOSFETs.
 - This is something that was used to eventually end up at the modern day mosfet that we know of. a MOS capacitor is essentially a MOSFET without source and drain regions—it consists only of the gate, oxide, and substrate.
 - It aptly explains the capacitive properties of the transistor, and how it is used to control the transistor.
