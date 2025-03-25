@@ -2,5 +2,8 @@
 
 
 module ckt3(input, output);
+( input in, output out );
+assign out=in;
+endmodule
 
 endmodule
