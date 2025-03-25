@@ -6,7 +6,7 @@
 
 module ckt4( 
     input a,b,c,
-    output w,x,y,z );
+    output w,x,y,z ); // declaring a module named ckt4, with 3 inputs a,b and c; and 4 outputs w,x,y,z
     assign w=a;
     assign x=b;
     assign y=b;
