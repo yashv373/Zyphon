@@ -4,4 +4,5 @@
 //for a structure bottom-up approach, we're following the list by HDLbits.
 //The first task is to describe a verilog circuit with no inputs and 1 output.
 
-module 
+module ckt(output y); // a module named ckt is instantiated and inside it we have a dec
+endmodule
