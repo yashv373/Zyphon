@@ -7,8 +7,8 @@ input [2:0] a,
     output out_or_logical,
     output [5:0] out_not
 );
-assign out_or_bitwise=a||b;
-assign output_or_logical=a|b;
-assign out_not={b[0:2],a[0:2]};
-endmodule
+  assign out_or_bitwise = a | b;      // Bitwise OR
+  assign out_or_logical = |(a || b);  // Logical OR (reduced to 1 bit)
+  assign out_not = {~b, ~a};          // Concatenated NOT of 'b' (upper) and 'a' (lower)
 
+endmodule
