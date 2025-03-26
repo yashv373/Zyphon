@@ -8,3 +8,5 @@ input [2:0] a,
     output [5:0] out_not
 );
 
+endmodule
+
