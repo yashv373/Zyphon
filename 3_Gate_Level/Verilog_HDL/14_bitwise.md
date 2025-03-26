@@ -9,6 +9,6 @@ input [2:0] a,
 );
 assign out_or_bitwise=a||b;
 assign output_or_logical=a|b;
-assign out not
+assign out_not={b[0:2]}
 endmodule
 
