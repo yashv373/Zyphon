@@ -7,6 +7,6 @@ input [2:0] a,
     output out_or_logical,
     output [5:0] out_not
 );
-
+assign out_or_bitwise=
 endmodule
 
