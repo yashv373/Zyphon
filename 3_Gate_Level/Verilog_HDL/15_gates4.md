@@ -4,4 +4,4 @@
 // - out_or: output of a 4-input OR gate.
 // - out_xor: output of a 4-input XOR gate.
 
-module ckt15
+module ckt15(input [3:0] in, output out_or)
