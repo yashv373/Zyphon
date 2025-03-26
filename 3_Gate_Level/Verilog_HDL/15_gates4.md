@@ -6,4 +6,6 @@
 
 module ckt15(input [3:0] in, output out_or, out_and, out_xor);
 assign out_and=&in;
-a
+assign out_or=|in;
+assign outxor=^in;
+endmodule
