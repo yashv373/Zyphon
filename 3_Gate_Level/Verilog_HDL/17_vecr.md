@@ -7,8 +7,9 @@ module ckt17(
 );
 int i,j;
 always@(*) begin
-for(i=0;i<=7;i++)
-for(j=7;j>=0;j--)
-assign out[j]=in[i];
+ for (i = 0, j = 7; i < 8; i = i + 1, j = j - 1) begin
+        out[j] = in[i];  // Swap bits correctly
+    end
+end
 end
 endmodule
