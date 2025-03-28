@@ -5,7 +5,8 @@ module ckt17(
     input [7:0] in,
     output [7:0] out
 );
-int i;
+int i,j;
+
 for(i=0;i<=7,i++)
 for(j=7;j>=0;j--)
 assign out[j]=in[i];
