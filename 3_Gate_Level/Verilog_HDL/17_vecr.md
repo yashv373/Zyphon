@@ -8,8 +8,7 @@ module ckt17(
 int i,j;
 always@(*) begin
  for (i = 0, j = 7; i < 8; i = i + 1, j = j - 1) begin
-        out[j] = in[i];  // Swap bits correctly
+        out[j] = in[i];  
     end
-end
 end
 endmodule
