@@ -6,6 +6,8 @@ module ckt17(
     output [7:0] out
 );
 int i;
-for(i=0;i<=)
+for(i=0;i<=7,i++)
+for()
+assign out
 
 endmodule
