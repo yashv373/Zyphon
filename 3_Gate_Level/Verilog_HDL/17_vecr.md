@@ -8,6 +8,6 @@ module ckt17(
 int i;
 for(i=0;i<=7,i++)
 for(j=7;j>=0;j--)
-assign out[j]=in[i]
+assign out[j]=in[i];
 
 endmodule
