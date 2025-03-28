@@ -5,6 +5,7 @@ module ckt17(
     input [7:0] in,
     output [7:0] out
 );
-
+int i;
+for(i=0;i<=)
 
 endmodule
