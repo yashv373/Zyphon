@@ -7,7 +7,7 @@ module ckt17(
 );
 int i,j;
 always@(*) begin
-for(i=0;i<=7,i++)
+for(i=0;i<=7;i++)
 for(j=7;j>=0;j--)
 assign out[j]=in[i];
 end
