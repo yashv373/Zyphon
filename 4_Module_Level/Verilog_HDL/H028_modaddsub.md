@@ -5,6 +5,7 @@ module top_module(
     output [31:0] sum
 );
 wire [15:0]s1,s2;
-add16 a1(a[15:0],b[15:0],sub,s1);
-add16 a2();
+wire carryp;
+add16 a1(a[15:0],b[15:0],sub,s1,carryp);
+add16 a2(a[31:16],b);
 endmodule
