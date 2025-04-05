@@ -5,7 +5,7 @@ module top_module(
     output [31:0] sum
 );
 wire [31:0] b1;
-assign b1=b^sub;
+assign b1=b^^sub;
 wire [15:0]s1,s2;
 wire carryp,cout;
 add16 a1(a[15:0],b1[15:0],sub,s1,carryp);
