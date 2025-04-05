@@ -2,6 +2,6 @@
 module top_module ( input a, input b, output out );
 mod_a ( input in1, input in2, output out );
 endmodule
-module 
-top_module(.a(in1),.b(in2),.out(out));
+module mod_a ( input in1, input in2, output out );
+    // Module body
 endmodule
