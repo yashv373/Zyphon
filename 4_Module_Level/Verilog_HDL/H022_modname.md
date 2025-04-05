@@ -15,7 +15,7 @@ You are given the following module:
 
 */
 
-module top_module ( 
+module ckt22 ( 
     input a, 
     input b, 
     input c,
