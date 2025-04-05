@@ -11,7 +11,7 @@ add16 a3(a[31:16],b[31:16],1'b1,s3,c3);
 //2:1mux
 always@(*) begin
 case(cout)
-1'b0:
+1'b0: sum={s2,s1};
 1'b1:
 endcase
 end
