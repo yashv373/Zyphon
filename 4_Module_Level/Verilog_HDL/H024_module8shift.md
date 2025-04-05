@@ -5,6 +5,6 @@ module ckt24 (
     output [7:0] q 
 );
 wire x,y;
-my_dff dff1(.clk(clk),.d(d),.q(x));
-my_dff dff2(.clk(clk),.d(x),.q(y));
-my_dff dff3(.clk(clk),.d(y),.q(q));
+my_dff8 dff1(.clk(clk),.d(d),.q(x));
+my_dff8 dff2(.clk(clk),.d(x),.q(y));
+my_dff8 dff3(.clk(clk),.d(y),.q(q));
