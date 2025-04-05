@@ -12,7 +12,8 @@ add16 a3(a[31:16],b[31:16],1'b1,s3,c3);
 always@(*) begin
 case(cout)
 1'b0: sum={s2,s1};
-1'b1:
+1'b1: sum={s3,s1};
+default: sum={16'b0,s1};
 endcase
 end
 endmodule
