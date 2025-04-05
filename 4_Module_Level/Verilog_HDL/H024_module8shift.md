@@ -9,3 +9,5 @@ my_dff8 dff1(.clk(clk),.d(d),.q(x));
 my_dff8 dff2(.clk(clk),.d(x),.q(y));
 my_dff8 dff3(.clk(clk),.d(y),.q(z));
 always@(clk,x,y,z) begin
+case(sel)
+2'b00: q=
