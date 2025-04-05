@@ -9,4 +9,5 @@ endmodule
   
 module add1 ( input a, input b, input cin, output sum, output cout );
 sum=a^b^cin;
-cout=
+cout=(a&cin)|(b&cin)|(a&b);
+endmodule
