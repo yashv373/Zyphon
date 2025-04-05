@@ -4,6 +4,7 @@ module top_module(
     input sub,
     output [31:0] sum
 );
+assign b1=b^sub;
 wire [15:0]s1,s2;
 wire carryp,cout;
 add16 a1(a[15:0],b[15:0],sub,s1,carryp);
