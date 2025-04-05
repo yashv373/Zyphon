@@ -2,7 +2,7 @@ module ckt24 (
     input clk, 
     input [7:0] d, 
     input [1:0] sel, 
-    output [7:0] q 
+    output reg [7:0] q 
 );
 wire [7:0] x, [7:0]y, [7:0]z;
 my_dff8 dff1(.clk(clk),.d(d),.q(x));
