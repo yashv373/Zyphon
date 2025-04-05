@@ -6,6 +6,9 @@ module top_module(
 wire c2,c3cout;
 wire [15:0] s1,s2,s2;
 add16 a1(a[15:0],b[15:0],1'b0,s1,cout);
-add16 a2(a[31:16],b[31:16],1'b1,s2,c2);
-add16 a3(a[31:16],b[31:16],1'b0,s3,c3);
+add16 a2(a[31:16],b[31:16],1'b0,s2,c2);
+add16 a3(a[31:16],b[31:16],1'b1,s3,c3);
+always@(*) begin
+end
+
 endmodule
