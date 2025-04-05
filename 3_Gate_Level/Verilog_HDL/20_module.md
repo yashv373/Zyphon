@@ -1,5 +1,6 @@
 // this example talks about creating modules/sub-modules which then further tell us how to connect them
 module top_module ( input a, input b, output out );
 endmodule
-module mod_a(.a(in1),.b(in2),.out(out));
+module 
+mod_a(.a(in1),.b(in2),.out(out));
 endmodule
