@@ -9,5 +9,5 @@ wire [15:0]s1,s2;
 wire carryp,cout;
 add16 a1(a[15:0],b1[15:0],sub,s1,carryp);
 add16 a2(a[31:16],b1[31:16],carryp,s2,cout);
-assign
+assign sum={s2,s1};
 endmodule
