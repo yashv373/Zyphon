@@ -5,8 +5,8 @@ module top_module(
     output [31:0] sum
 );
 wire [31:0] b1;
-// take speci
-assign b1=b^32{sub};
+// take special care here, u need to replicate sub 32 times then do xor.
+assign b1=b^{32{sub}};
 wire [15:0]s1,s2;
 wire carryp,cout;
 add16 a1(a[15:0],b1[15:0],sub,s1,carryp);
