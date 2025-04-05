@@ -1,1 +1,6 @@
-module ckt23 ()
+module ckt23 (
+input
+output
+);
+
+endmodule
