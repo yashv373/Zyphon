@@ -1,0 +1,10 @@
+module ckt24 ( 
+    input clk, 
+    input [7:0] d, 
+    input [1:0] sel, 
+    output [7:0] q 
+);
+wire x,y;
+my_dff dff1(.clk(clk),.d(d),.q(x));
+my_dff dff2(.clk(clk),.d(x),.q(y));
+my_dff dff3(.clk(clk),.d(y),.q(q));
