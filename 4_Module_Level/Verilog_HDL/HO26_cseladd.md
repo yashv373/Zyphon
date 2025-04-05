@@ -10,8 +10,11 @@ add16 a2(a[31:16],b[31:16],1'b0,s2,c2);
 add16 a3(a[31:16],b[31:16],1'b1,s3,c3);
 //2:1mux
 always@(*) begin
-case(sel)
-1'b00
+case(s2,s3)
+1'b00:
+1'b01:
+1'b10:
+1'b11:
 endcase
 end
 endmodule
