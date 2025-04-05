@@ -8,6 +8,5 @@ module top_module (
     output out1,
     output out2
 );
-mod_a a1 (out1,out2,,v);
-
+mod_a a1 (out1,out2,a,b,c,d);
 endmodule
