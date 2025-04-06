@@ -6,7 +6,7 @@ module top_module(
     output wire out_assign,
     output reg out_alwaysblock
 );
-assign out_assign=a&b;//assign_and
+ assign out_assign=a&b;//assign_and
 always@(*) begin// always_and
 assign out_alwaysblock=a&b;
 end
