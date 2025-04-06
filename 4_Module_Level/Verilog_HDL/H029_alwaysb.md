@@ -8,6 +8,6 @@ module top_module(
 );
  assign out_assign=a&b;//assign_and
 always@(*) begin// always_and
-assign out_alwaysblock=a&b;
+ out_alwaysblock=a&b;
 end
 endmodule
