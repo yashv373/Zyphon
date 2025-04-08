@@ -25,6 +25,20 @@ endmodule
 
 Testbench:
 ```
+module bcd_to_7seg_tb;
+    reg [3:0] bcd;
+    wire [6:0] seg;
+
+    bcd_to_7seg dut (.bcd(bcd), .seg(seg));
+
+    initial begin
+        bcd = 0;
+        repeat (12) begin
+            #10 bcd = bcd + 1;
+        end
+        #20 $finish;
+    end
+endmodule
 
 ```
 
