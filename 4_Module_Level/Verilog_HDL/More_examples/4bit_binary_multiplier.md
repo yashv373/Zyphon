@@ -35,5 +35,14 @@ endmodule
 ```
 .sdc file
 ```
+# Create a virtual clock to give STA a reference
+create_clock -name virtual_clk -period 3.0
+
+# Set input delays (we're assuming max 1.5ns from source to input ports)
+set_input_delay 1.5 -clock virtual_clk [get_ports a]
+set_input_delay 1.5 -clock virtual_clk [get_ports b]
+
+# Set output delay (we expect the product to be valid within 1.5ns after processing)
+set_output_delay 1.5 -clock virtual_clk [get_ports product]
 
 ```
