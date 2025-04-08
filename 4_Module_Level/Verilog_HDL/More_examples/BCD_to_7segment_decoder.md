@@ -44,5 +44,9 @@ endmodule
 
 Design Constraints (.sdc):
 ```
+create_clock -name clk -period 10.0
+
+set_input_delay 2.0 -clock clk [get_ports bcd]
+set_output_delay 2.0 -clock clk [get_ports seg]
 
 ```
